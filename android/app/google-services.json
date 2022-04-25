@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760278427487",
+    "project_id": "moviegain-223e1",
+    "storage_bucket": "moviegain-223e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760278427487:android:08aa0b1745be6a95da78ea",
+        "android_client_info": {
+          "package_name": "com.example.movie_gain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760278427487-b65pta5n0h1i8d9be5gshl7dpj0bdtkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCGo6DmtEkMKxr-LsDM3UHFjkTLxa-45w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760278427487-b65pta5n0h1i8d9be5gshl7dpj0bdtkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
