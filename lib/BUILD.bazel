@@ -1,0 +1,8 @@
+load("@io_bazel_rules_flutter//flutter:defs.bzl", "flutter_binary")
+
+flutter_binary(
+    name = "app",
+    srcs = glob(["**/*.dart"]),
+    manifest = "AndroidManifest.xml",
+    assets = glob(["assets/**"]),
+)
