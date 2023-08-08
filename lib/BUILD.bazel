@@ -1,0 +1,14 @@
+# Load the Flutter build rules
+load("@io_bazel_rules_flutter//flutter:defs.bzl", "flutter_binary")
+
+# Define a Flutter binary build rule
+# name: the name of the rule
+# srcs: the Dart source files
+# manifest: the Android manifest file
+# assets: the assets included in the build
+flutter_binary(
+    name = "app",
+    srcs = glob(["**/*.dart"]),
+    manifest = "AndroidManifest.xml",
+    assets = glob(["assets/**"]),
+)

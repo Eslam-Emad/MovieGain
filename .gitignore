@@ -44,3 +44,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Bazel related
+# These lines are used to ignore Bazel build outputs
+/bazel-*
